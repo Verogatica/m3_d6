@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {background-color: #0c0c22;
+color: white;
+font-family: "Roboto", sans-serif;
+}
+
+h1 {font-family: "Roboto Slab", serif;
+font-size: 24px;
+text-align: center;}
+
+h2{font-family: "Roboto Slab", serif;
+    font-size: 18px;}
+
+.container {background-color: #32314e;
+width: 30%;
+text-align: center;
+border-radius: 5px;
+padding: 20px;
+margin: auto;
+}
+
+input {height: 30px;
+width: 180px;}
+
+.monedas button{height: 30px;
+    width: 185px;}
+
+.monedas {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    
+}
+
+.monedas p {font-size: 14px;}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 20xpx;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+select {width: 185px;
+    height: 30px;;}
+
+.moneda {padding: 10px;}
+
+#myChart {margin-top: 40px;}
